@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: Blog
-description: Here be writings
+title: Research
+description: Here be research
 permalink: /blog
 ---
 
-Here be writings. Mostly mundane, sometimes fanciful.
+Work in Progress
