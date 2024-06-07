@@ -1,0 +1,4 @@
+---
+slug: Madagascar
+name: Madagascar
+---
