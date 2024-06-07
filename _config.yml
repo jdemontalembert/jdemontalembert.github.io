@@ -10,6 +10,14 @@ url: "https://jeannedemontalembert.github.io" # the base hostname & protocol for
 
 #########################
 # more settings
+theme: jekyll-bear-theme
+
+/posts      -> Where you will write your posts
+/_my_tags   -> Where you will define your tags, if you need to add anything new
+research.md     -> Homepage for your blog
+index.md    -> Website homepage
+404.html    -> When a page is not available
+teaching.md     -> teaching
 
 plugins:
   - jekyll-redirect-from
