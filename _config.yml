@@ -3,7 +3,7 @@
 
 title: Jeanne de Montalembert
 description: personal website
-# baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
+# baseurl: "/website" # the subpath of your site, e.g. /blog/
 url: "https://jeannedemontalembert.github.io" # the base hostname & protocol for your site
 # host: 0.0.0.0
 
@@ -55,7 +55,10 @@ exclude:
 
 exclude: [vendor]
 
-Blog: /blog
+Research: /research
+
+Teaching: /teaching
+
 
 # Add general links to site pages here
 links:
@@ -63,5 +66,5 @@ links:
   
 
 # Add links for more focus here
-special_links:
-  "Search": https://duckduckgo.com
+#special_links:
+#  "Search": https://duckduckgo.com
