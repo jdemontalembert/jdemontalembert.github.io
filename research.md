@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: research
 title: Research
 description: Here be research
 permalink: /blog
