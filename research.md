@@ -1,8 +1,8 @@
 ---
 layout: research
-title: Research
+title: research
 description: Here be research
 permalink: /research
 ---
 
-Work in Progress
+ 
