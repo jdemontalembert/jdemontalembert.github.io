@@ -6,7 +6,7 @@
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://jdemontalembert.github.io/about/</loc>
+    <loc>https://jdemontalembert.github.io/</loc>
     <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
     <priority>0.80</priority>
   </url>
