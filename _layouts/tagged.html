@@ -8,14 +8,15 @@ layout: compress
 
     {% include header.html %}
 
-    {{ content }}
+
+<br>
 
     {% if site.tags[page.slug] %}
     <p>
-        Here be research, tagged as <b>"{{ page.slug }}"</b>.<br>
-        <small><a href="{{ site.baseurl }}{{ site.Blog }}">Remove filter</a></small>
+        Research related to <b>"{{ page.slug }}"</b>.<br>
+        <small><a href="{{ site.baseurl }}/research">Remove filter</a></small>
     </p>
-
+ 
     <ul class="blog-posts">
         {% assign post_list = '' | split: ',' %}
         {% for post in site.tags[page.slug] %}
@@ -26,15 +27,19 @@ layout: compress
         {% for post in post_list %}
         {% unless post == previous %}
         <li>
-            <span>
-                <i>
-                    <time datetime="2022-01-28" pubdate="">
-                        {{ post.date | date: "%b %-d, %Y" }}
-                    </time>
-                </i>
-            </span>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <div style="display: inline;">
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                {% if post.status %}
+                <span>&nbsp;{{ post.status }}</span>
+                {% endif %}
+            </div>
         </li>
+        <li>
+            {% if post.description %}
+            <div>{{ post.description }}</div>
+            {% endif %}  
+        </li>
+ 	<div style="height: 40px;"></div> <!-- Ajoute un espace de 40px entre les posts -->
         {% endunless %}
         {% assign previous = post %}
         {% endfor %}
@@ -42,7 +47,7 @@ layout: compress
     </ul>
     {% else %}
     <p>
-        There are no posts in {{ page.slug }}.
+        There are no research related to {{ page.slug }}.
     </p>
     {% endif %}
 

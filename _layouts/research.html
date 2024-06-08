@@ -8,18 +8,25 @@ layout: compress
 
     {% include header.html %}
 
-    {{ content }}
+
+<br>
+
+    <h3>Research related to:</h3>
+    <p>
 
         {% for tag in site.tags %}
 
         {% assign tag_slug = tag | first %}
         {% assign no_of_posts = tag | last | size %}
 
-        <a href="{{ 'tagged/' | relative_url }}{{ tag_slug }}" title="See all posts by {{ tag_slug }} tag">#{{ tag_slug
+        <a href="{{ 'tagged/' | relative_url }}{{ tag_slug }}" title="See all research by {{ tag_slug }} tag">#{{ tag_slug
             }}</a>
         {% endfor %}
     </small>
 
+<br><br>
+
+    {{ content }}
 
     <ul class="blog-posts">
         {% assign post_list = '' | split: ',' %}
@@ -31,15 +38,19 @@ layout: compress
         {% for post in post_list %}
         {% unless post == previous %}
         <li>
-            <span>
-                <i>
-                    <time datetime="2022-01-28" pubdate="">
-                        {{ post.date | date: "%b %-d, %Y" }}
-                    </time>
-                </i>
-            </span>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <div style="display: inline;">
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                {% if post.status %}
+                <span>&nbsp;{{ post.status }}</span>
+                {% endif %}
+            </div>
         </li>
+        <li>
+            {% if post.description %}
+            <div>{{ post.description }}</div>
+            {% endif %}  
+        </li>
+ 	<div style="height: 40px;"></div> <!-- Ajoute un espace de 40px entre les posts -->
         {% endunless %}
         {% assign previous = post %}
         {% endfor %}
