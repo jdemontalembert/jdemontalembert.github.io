@@ -45,10 +45,6 @@ defaults:
       layout: tagged
 
 # baseurl: ""
-permalink: /blog/:slug
-timezone: America/New_York
-future: false
-
 permalink: /research/:slug
 timezone: America/New_York
 future: false
