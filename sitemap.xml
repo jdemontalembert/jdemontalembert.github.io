@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://jdemontalembert.github.io/</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://jdemontalembert.github.io/about/</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://jdemontalembert.github.io/research/</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <!-- Ajoutez plus d'URL ici -->
+</urlset>
