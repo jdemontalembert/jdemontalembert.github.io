@@ -4,7 +4,7 @@
 title: Jeanne de Montalembert
 description: personal website
 # baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://jeannedemontalembert.github.io" # the base hostname & protocol for your site
+url: "https://jeannedemontalembert.github.io" 
 # host: 0.0.0.0
 
 
