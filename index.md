@@ -1,18 +1,26 @@
 ---
 layout: default
-title: about
+title: home
 ---
 
 
+### **PhD Candidate** at Université Paris Dauphine
 
-**PhD Candidate**
-[Université Paris Dauphine](https://dauphine.psl.eu/)
+Department of Economics (LEDa)  
+UMR CNRS 8007, UMR IRD 260  
+Equipe DIAL
 
-**Research fields**
-First: Environmental Economics, Development Economics
+<br>
+
+#### **Research fields**
+
+First: Environmental Economics, Development Economics  
 Second: Health Economics, Agricultural Economics, Applied Economics
 
-**Contact**
-*jeanne.de-montalembert@dauphine.psl.eu*
+<br>
+
+#### **Contact**
+
+*[jeanne.de-montalembert@dauphine.psl.eu](mailto:jeanne.de-montalembert@dauphine.psl.eu)*
 
 
