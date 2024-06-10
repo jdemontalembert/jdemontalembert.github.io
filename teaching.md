@@ -31,7 +31,7 @@ Microeconomics: Coordination and Interaction
 
 <br>
 
-### **[Tany Vao](https://tanyvao.hypotheses.org/)  **
+### **[Tany Vao](https://tanyvao.hypotheses.org/)**
 
 Impact evaluation of public policy  
 Summer school
