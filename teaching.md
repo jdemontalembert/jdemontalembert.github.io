@@ -34,6 +34,6 @@ Microeconomics: Coordination and Interaction
 ### **[Tany Vao](https://tanyvao.hypotheses.org/)**
 
 Impact evaluation of public policy  
-Summer school
+Summer school  
 <span class="small-text">2021, 2022</span>
 
