@@ -31,9 +31,9 @@ Microeconomics: Coordination and Interaction
 
 <br>
 
-### **Université Toliara**
+### **[Tany Vao](https://tanyvao.hypotheses.org/)  **
 
 Impact evaluation of public policy  
-[Tany Vao Summer School](https://tanyvao.hypotheses.org/)  
+Summer school
 <span class="small-text">2021, 2022</span>
 
