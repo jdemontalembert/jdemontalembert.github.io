@@ -6,7 +6,6 @@ description: with Ferry, M.
 status: 
 tags: 
   - agriculture
-  - Madagascar
 ---
 
 <style>
