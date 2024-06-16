@@ -6,7 +6,6 @@ description: Job Market Paper
 status: 
 tags: 
   - conservation
-  - Madagascar
 ---
 
 <style>
