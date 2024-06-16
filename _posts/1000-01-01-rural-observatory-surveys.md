@@ -7,7 +7,6 @@ status: Submitted
 tags: 
   - data-paper
   - agriculture
-  - Madagascar
 ---
 **with Andrianjafindrainibe V.S. et al.**
 
