@@ -21,6 +21,7 @@ Second: Health Economics, Agricultural Economics, Applied Economics
 
 #### **Contact**
 
-[jeanne.de-montalembert@dauphine.psl.eu](mailto:jeanne.de-montalembert@dauphine.psl.eu)
+jeanne.de-montalembert[at]dauphine.psl.eu
+ 
 
 
