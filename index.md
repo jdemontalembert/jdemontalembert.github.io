@@ -4,7 +4,7 @@ title: home
 ---
 
 
-### **PhD Candidate** at Université Paris Dauphine
+### **PhD Candidate** at Université Paris Dauphine-PSL
 
 Department of Economics (LEDa)  
 UMR CNRS 8007, UMR IRD 260  
