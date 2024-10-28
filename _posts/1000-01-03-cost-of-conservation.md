@@ -16,7 +16,7 @@ tags:
 
 How does conservation policy shape child health ? Relying on repeated cross-sectional household surveys spanning from 2008 to 2021 and a newly database on Protected Areas (PAs) in Madagascar, I investigate the impact of PAs on childhood anemia with a difference-in-differences estimation strategy. Results indicate that PAs reduce hemoglobin levels and increase anemia occurrence by about 6 pp, with boys and children from poor households being more adversely affected. This negative health impact is partly due to increased malaria prevalence linked to PAs, despite improvements in access to drinking water. These findings underscore the complex interplay between conservation efforts and health conditions in local communities.
 
-<span class="small-text">**Presented at**: FAERE PhD Workshop (2024); Environmental Economics : A Focus On Natural Resources (2024); AFEPOP (2024); Canadian Economic Conference, online (2024); Novafrica PhD Workshop (2024); International Conference of Development Economics (2024); International Conference of Agricultural Economics (2024); French Association of Environmental and Resources Economists (2024). 
+<span class="small-text">**Presented at**: FAERE PhD Workshop (2024); Environmental Economics : A Focus On Natural Resources (2024); AFEPOP (2024); Canadian Economic Conference, online (2024); Novafrica PhD Workshop (2024); International Conference of Development Economics (2024); International Conference of Agricultural Economics (2024); French Association of Environmental and Resources Economists (2024); *North East Universities Development Consortium (2024); DIAL seminar (2024); CEE-M seminar (2025)*. 
 </span>
 
 
