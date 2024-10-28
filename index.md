@@ -12,14 +12,14 @@ Equipe DIAL
 
 <br>
 
+### ** On the job market 2024-25**
+
+<br>
+
 #### **Research fields**
 
 First: Environmental Economics, Development Economics  
 Second: Health Economics, Agricultural Economics, Applied Economics
-
-<br>
-
-### ** I am on the job market 2024-25**
 
 <br>
 
