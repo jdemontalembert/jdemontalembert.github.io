@@ -4,9 +4,9 @@ title:  "Madagascar rural observatory surveys, a longitudinal dataset on househo
 date:   1000-01-01 21:21:21 +0530
 description: with Andrianjafindrainibe V.S. et al. 
 status: Published
-journal: *Scientific Data*
-volume: **11**
-issue: 1061 
+journal: "Scientific Data"
+volume: "11"
+issue: "1061"
 tags: 
   - data-paper
   - agriculture
