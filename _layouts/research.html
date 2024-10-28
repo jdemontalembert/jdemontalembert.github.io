@@ -78,12 +78,12 @@ layout: compress
 
                     <!-- Co-auteurs -->
                     {% if post.description %}
-                        <span>{{ post.description }}></span>
+                        <span>{{ post.description }}</span>
                     {% endif %}
 
                     <!-- Revue et informations (volume, numéro, année) -->
                     {% if post.journal %}
-                         <span><em>{{ post.journal }}</em>, <strong>{{ post.volume }}</strong>, {{ post.issue }}, ({{ post.year }})</span>
+                         <span><em>{{ post.journal }}</em>, <strong>{{ post.volume }}</strong>, {{ post.issue }}, {{ post.year }}</span>
                     {% endif %}
                 </li>
             {% endif %}
