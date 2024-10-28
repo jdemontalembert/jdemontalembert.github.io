@@ -65,6 +65,9 @@ layout: compress
     <ul style="list-style-type: none; padding-left: 0;">
         {% assign found_pub = false %}
         {% for post in site.posts %}
+        {% for tag in post.tags %}
+        {% assign post_list = post_list | push: post %}
+        {% endfor %}
             {% if post.status == "Published" %}
                 {% assign found_pub = true %}
                 <li style="margin-bottom: 20px;">
@@ -72,8 +75,8 @@ layout: compress
                     <a href="{{ site.baseurl }}{{ post.url }}" style="font-weight: bold;">{{ post.title }}</a>
 
                     <!-- Co-auteurs -->
-                    {% if post.authors %}
-                        <p>{{ post.authors }}</p>
+                    {% if post.description %}
+                        <p>{{ post.description }}</p>
                     {% endif %}
 
                     <!-- Revue et informations (volume, numéro, année) -->
