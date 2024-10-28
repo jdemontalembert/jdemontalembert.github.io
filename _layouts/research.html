@@ -60,22 +60,25 @@ layout: compress
 
     <br><br>
     
-    <!-- Section Publications -->
+ <!-- Section Publications -->
     <h3>Publications</h3>
-    <ul class="blog-posts" style="list-style: none; padding-left: 0;">
+    <ul style="list-style-type: none; padding-left: 0;">
         {% assign found_pub = false %}
         {% for post in site.posts %}
             {% if post.status == "Published" %}
                 {% assign found_pub = true %}
                 <li style="margin-bottom: 20px;">
-                    <div>
-                        <a href="{{ site.baseurl }}{{ post.url }}" style="font-weight: bold;">{{ post.title }}</a>
-                    </div>
-                    {% if post.journal %}
-                        <div><em>{{ post.journal }}</em>, {{ post.volume }}, {{ post.issue }}</div>
+                    <!-- Titre de la publication -->
+                    <a href="{{ site.baseurl }}{{ post.url }}" style="font-weight: bold;">{{ post.title }}</a>
+
+                    <!-- Co-auteurs -->
+                    {% if post.authors %}
+                        <p>{{ post.authors }}</p>
                     {% endif %}
-                    {% if post.description %}
-                        <div>{{ post.description }}</div>
+
+                    <!-- Revue et informations (volume, numéro, année) -->
+                    {% if post.journal %}
+                        <p><em>{{ post.journal }}</em>, Vol. {{ post.volume }}, No. {{ post.issue }}, {{ post.year }}</p>
                     {% endif %}
                 </li>
             {% endif %}
@@ -83,7 +86,7 @@ layout: compress
         {% unless found_pub %}
             <p>No publications found.</p>
         {% endunless %}
-    </ul
+    </ul>
     
     <small>
 
