@@ -30,4 +30,4 @@ Can adaptation strategies mitigate the impact of climate variability on househol
 
 <span class="vsmall-text">\*: Presented by coauthor(s) </span>
 
-**Received the Honorable Mention at the [T.W. Schultz Prize for Best Contributed Paper](https://iaae-agecon.org/page/best-contributed-paper) at ICAE2024**
+**Received the Honorable Mention for the [T.W. Schultz Prize for Best Contributed Paper](https://iaae-agecon.org/page/best-contributed-paper) at ICAE (2024)**
