@@ -19,5 +19,5 @@ How does conservation policy shape child health ? Relying on repeated cross-sect
 <span class="small-text">**Presented at**: FAERE PhD Workshop (2024); Environmental Economics : A Focus On Natural Resources (2024); AFEPOP (2024); Canadian Economic Conference, online (2024); Novafrica PhD Workshop (2024); International Conference of Development Economics (2024); International Conference of Agricultural Economics (2024); French Association of Environmental and Resources Economists (2024); *North East Universities Development Consortium (2024); DIAL seminar (2024); CEE-M seminar (2025)*. 
 </span>
 
-**Received [Nils Westermarck Prize for Best Poster](https://iaae-agecon.org/page/best-poster) at ICAE (2024)**
+**Received the [Nils Westermarck Prize for Best Poster](https://iaae-agecon.org/page/best-poster) at ICAE (2024)**
 
