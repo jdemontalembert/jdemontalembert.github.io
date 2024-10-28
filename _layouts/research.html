@@ -26,8 +26,9 @@ layout: compress
 
 <br><br>
 
-    {{ content }}
-
+    <!-- Section Work in Progress -->
+    <h3>Work in Progress</h3>
+    
     <ul class="blog-posts">
         {% assign post_list = '' | split: ',' %}
         {% for post in site.posts %}
@@ -57,6 +58,31 @@ layout: compress
 
     </ul>
 
+    <br><br>
+    
+<h3>Publications</h3>
+    <ul class="blog-posts">
+        {% assign found_pub = false %}
+        {% for post in site.posts %}
+            {% if post.status == "Published" %}
+                {% assign found_pub = true %}
+                <li>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    {% if post.journal %}
+                        <div><em>{{ post.journal }}</em>, {{ post.volume }}, {{ post.issue }}</div>
+                    {% endif %}
+                    {% if post.description %}
+                        <div>{{ post.description }}</div>
+                    {% endif %}
+                </li>
+                <div style="height: 40px;"></div>
+            {% endif %}
+        {% endfor %}
+        {% unless found_pub %}
+            <p>No publications found.</p>
+        {% endunless %}
+    </ul>
+    
     <small>
 
 </main>
