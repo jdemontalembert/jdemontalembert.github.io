@@ -26,38 +26,39 @@ layout: compress
 
 <br><br>
 
-    {{ content }}
-
+  <!-- Section Work in Progress -->
+    <h3>Work in Progress</h3>
     <ul class="blog-posts">
-        {% assign post_list = '' | split: ',' %}
         {% for post in site.posts %}
-        {% for tag in post.tags %}
-        {% assign post_list = post_list | push: post %}
+            {% if post.status == "Work in Progress" %}
+                <li>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    {% if post.description %}
+                        <div>{{ post.description }}</div>
+                    {% endif %}
+                </li>
+                <div style="height: 40px;"></div>
+            {% endif %}
         {% endfor %}
-        {% endfor %}
-        {% for post in post_list %}
-        {% unless post == previous %}
-        <li>
-            <div style="display: inline;">
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                {% if post.status %}
-                <span>&nbsp;{{ post.status }}</span>
-                {% endif %}
-            </div>
-        </li>
-        <li>
-            {% if post.description %}
-            <div>{{ post.description }}</div>
-            {% endif %}  
-        </li>
- 	<div style="height: 40px;"></div> <!-- Ajoute un espace de 40px entre les posts -->
-        {% endunless %}
-        {% assign previous = post %}
-        {% endfor %}
-
     </ul>
 
-    <small>
+    <br><br>
+
+    <!-- Section Publications -->
+    <h3>Publications</h3>
+    <ul class="blog-posts">
+        {% for post in site.posts %}
+            {% if post.status == "Published" %}
+                <li>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    {% if post.description %}
+                        <div>{{ post.description }}</div>
+                    {% endif %}
+                </li>
+                <div style="height: 40px;"></div>
+            {% endif %}
+        {% endfor %}
+    </ul>
 
 </main>
 
