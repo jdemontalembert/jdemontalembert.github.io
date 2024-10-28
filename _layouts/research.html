@@ -60,7 +60,7 @@ layout: compress
         {% endfor %}
 
     </ul>
-
+    </small>
     <br><br>
     
  <!-- Section Publications -->
@@ -79,12 +79,12 @@ layout: compress
 
                     <!-- Co-auteurs -->
                     {% if post.description %}
-                        <p>{{ post.description }}</p>
+                        <span>&nbsp;<p>{{ post.description }}</p>
                     {% endif %}
 
                     <!-- Revue et informations (volume, numéro, année) -->
                     {% if post.journal %}
-                        <p><em>{{ post.journal }}</em>, Vol. {{ post.volume }}, No. {{ post.issue }}, {{ post.year }}</p>
+                        <p><em>{{ post.journal }}</em>, Vol. {{ post.volume }}, No. {{ post.issue }}, {{ post.year }}</p></span>
                     {% endif %}
                 </li>
             {% endif %}
