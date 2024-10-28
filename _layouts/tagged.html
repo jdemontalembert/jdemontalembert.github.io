@@ -29,15 +29,15 @@ layout: compress
         <li>
             <div style="display: inline;">
                 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                {% if post.status %}
-                <span>&nbsp;{{ post.status }}</span>
-                {% endif %}
-            </div>
-        </li>
-        <li>
-            {% if post.description %}
-            <div>{{ post.description }}</div>
-            {% endif %}  
+                    <!-- Co-auteurs -->
+                    {% if post.description %}
+                        <span>{{ post.description }}</span>
+                    {% endif %}
+
+                    <!-- Revue et informations (volume, numéro, année) -->
+                    {% if post.journal %}
+                         <span>{{ post.year }}, <em>{{ post.journal }}</em>, <strong>{{ post.volume }}</strong>, {{ post.issue }}</span>
+                    {% endif %}
         </li>
  	<div style="height: 40px;"></div> <!-- Ajoute un espace de 40px entre les posts -->
         {% endunless %}
