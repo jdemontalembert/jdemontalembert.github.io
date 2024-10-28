@@ -36,6 +36,8 @@ layout: compress
         {% assign post_list = post_list | push: post %}
         {% endfor %}
         {% endfor %}
+            {% if post.status == "" %}
+
         {% for post in post_list %}
         {% unless post == previous %}
         <li>
@@ -50,6 +52,7 @@ layout: compress
             {% if post.description %}
             <div>{{ post.description }}</div>
             {% endif %}  
+             {% endif %}
         </li>
  	<div style="height: 40px;"></div> <!-- Ajoute un espace de 40px entre les posts -->
         {% endunless %}
@@ -72,7 +75,7 @@ layout: compress
                 {% assign found_pub = true %}
                 <li style="margin-bottom: 20px;">
                     <!-- Titre de la publication -->
-                    <a href="{{ site.baseurl }}{{ post.url }}" style="font-weight: bold;">{{ post.title }}</a>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 
                     <!-- Co-auteurs -->
                     {% if post.description %}
