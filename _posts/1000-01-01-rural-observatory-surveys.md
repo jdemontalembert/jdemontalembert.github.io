@@ -7,6 +7,7 @@ status: Published
 journal: "Scientific Data"
 volume: "11"
 issue: "1061"
+year: "2024"
 tags: 
   - data-paper
   - agriculture
