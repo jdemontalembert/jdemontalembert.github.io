@@ -8,38 +8,39 @@ layout: compress
 
     {% include header.html %}
 
-
-<br>
-
+    <br>
     <h3>Research related to:</h3>
     <p>
-
         {% for tag in site.tags %}
-
-        {% assign tag_slug = tag | first %}
-        {% assign no_of_posts = tag | last | size %}
-
-        <a href="{{ 'tagged/' | relative_url }}{{ tag_slug }}" title="See all research by {{ tag_slug }} tag">#{{ tag_slug
-            }}</a>
+            {% assign tag_slug = tag | first %}
+            <a href="{{ 'tagged/' | relative_url }}{{ tag_slug }}" title="See all research by {{ tag_slug }} tag">
+                #{{ tag_slug }}
+            </a>
         {% endfor %}
-    </small>
+    </p>
 
-<br><br>
+    <br><br>
 
-  <!-- Section Work in Progress -->
+    <!-- Section Work in Progress -->
     <h3>Work in Progress</h3>
     <ul class="blog-posts">
+        {% assign found_wip = false %}
         {% for post in site.posts %}
             {% if post.status == "Work in Progress" %}
-                <li>
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                {% assign found_wip = true %}
+                <li style="margin-bottom: 40px;">
+                    <div>
+                        <a href="{{ site.baseurl }}{{ post.url }}"><strong>{{ post.title }}</strong></a>
+                    </div>
                     {% if post.description %}
                         <div>{{ post.description }}</div>
                     {% endif %}
                 </li>
-                <div style="height: 40px;"></div>
             {% endif %}
         {% endfor %}
+        {% unless found_wip %}
+            <p>No work in progress found.</p>
+        {% endunless %}
     </ul>
 
     <br><br>
@@ -47,17 +48,26 @@ layout: compress
     <!-- Section Publications -->
     <h3>Publications</h3>
     <ul class="blog-posts">
+        {% assign found_pub = false %}
         {% for post in site.posts %}
             {% if post.status == "Published" %}
-                <li>
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                {% assign found_pub = true %}
+                <li style="margin-bottom: 40px;">
+                    <div>
+                        <a href="{{ site.baseurl }}{{ post.url }}"><strong>{{ post.title }}</strong></a>
+                    </div>
+                    {% if post.journal %}
+                        <div><em>{{ post.journal }}</em>, {{ post.volume }}, {{ post.issue }}</div>
+                    {% endif %}
                     {% if post.description %}
                         <div>{{ post.description }}</div>
                     {% endif %}
                 </li>
-                <div style="height: 40px;"></div>
             {% endif %}
         {% endfor %}
+        {% unless found_pub %}
+            <p>No publications found.</p>
+        {% endunless %}
     </ul>
 
 </main>
