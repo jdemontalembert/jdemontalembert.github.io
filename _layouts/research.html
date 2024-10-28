@@ -83,7 +83,7 @@ layout: compress
 
                     <!-- Revue et informations (volume, numéro, année) -->
                     {% if post.journal %}
-                         <span><em>{{ post.journal }}</em>, Vol. {{ post.volume }}, No. {{ post.issue }}, {{ post.year }}</span>
+                         <span><em>{{ post.journal }}</em>, <strong>{{ post.volume }}</strong>, {{ post.issue }}, ({{ post.year }})</span>
                     {% endif %}
                 </li>
             {% endif %}
