@@ -60,14 +60,17 @@ layout: compress
 
     <br><br>
     
-<h3>Publications</h3>
-    <ul class="blog-posts">
+    <!-- Section Publications -->
+    <h3>Publications</h3>
+    <ul class="blog-posts" style="list-style: none; padding-left: 0;">
         {% assign found_pub = false %}
         {% for post in site.posts %}
             {% if post.status == "Published" %}
                 {% assign found_pub = true %}
-                <li>
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                <li style="margin-bottom: 20px;">
+                    <div>
+                        <a href="{{ site.baseurl }}{{ post.url }}" style="font-weight: bold;">{{ post.title }}</a>
+                    </div>
                     {% if post.journal %}
                         <div><em>{{ post.journal }}</em>, {{ post.volume }}, {{ post.issue }}</div>
                     {% endif %}
@@ -75,13 +78,12 @@ layout: compress
                         <div>{{ post.description }}</div>
                     {% endif %}
                 </li>
-                <div style="height: 40px;"></div>
             {% endif %}
         {% endfor %}
         {% unless found_pub %}
             <p>No publications found.</p>
         {% endunless %}
-    </ul>
+    </ul
     
     <small>
 
