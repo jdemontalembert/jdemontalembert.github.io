@@ -19,6 +19,10 @@ Second: Health Economics, Agricultural Economics, Applied Economics
 
 <br>
 
+### ** I am on the job market 2024-25**
+
+<br>
+
 #### **Contact**
 
 jeanne.de-montalembert[at]dauphine.psl.eu
