@@ -36,10 +36,9 @@ layout: compress
         {% assign post_list = post_list | push: post %}
         {% endfor %}
         {% endfor %}
-            {% if post.status == "" %}
-
         {% for post in post_list %}
         {% unless post == previous %}
+                    {% if post.status == "" %}
         <li>
             <div style="display: inline;">
                 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
