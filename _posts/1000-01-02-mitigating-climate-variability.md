@@ -5,8 +5,7 @@ date:   1000-01-02 21:21:21 +0530
 description: with Ferry, M.
 status: Published
 journal: "Ecological Economics"
-volume: ""
-issue: "*Forthcoming*"
+volume: "Forthcoming"
 year: ""
 tags: 
   - agriculture
