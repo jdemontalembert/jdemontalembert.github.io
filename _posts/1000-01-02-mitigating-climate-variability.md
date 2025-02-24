@@ -2,8 +2,7 @@
 layout: post
 title:  "Mitigating Climate Vulnerability: the Crop Diversification Effect"
 date:   1000-01-02 21:21:21 +0530
-description: with Ferry, M.
-description: forthcoming in Ecological Economics
+description: with Ferry, M. forthcoming in Ecological Economics
 status: "Published"
 tags: 
   - agriculture
