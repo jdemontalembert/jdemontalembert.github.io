@@ -1,12 +1,17 @@
 ---
-layout: post
+layout: design-post
 title:  "Mitigating Climate Vulnerability: the Crop Diversification Effect"
 date:   1000-01-02 21:21:21 +0530
-description: with Ferry, M. forthcoming in Ecological Economics
+description: with Ferry, M.
 status: "Published"
+journal: "Ecological Economics"
+volume: "233"
+issue: "108568"
+year: "(2025)"
 tags: 
   - agriculture
 ---
+
 
 <style>
   .small-text {
@@ -31,3 +36,5 @@ Can adaptation strategies mitigate the impact of drought episodes on household f
 <span class="vsmall-text">\*: Presented by coauthor(s) </span>
 
 **Received the Honorable Mention for the [T.W. Schultz Prize for Best Contributed Paper](https://iaae-agecon.org/page/best-contributed-paper) at ICAE (2024)**
+
+**[[Paper](https://www.sciencedirect.com/science/article/pii/S0921800925000515)]** 
