@@ -11,20 +11,6 @@ year: "(2025)"
 tags: 
   - agriculture
 ---
-
-
-<style>
-  .small-text {
-    font-size: 0.9em;
-  }
-</style>
-
-<style>
-  .vsmall-text {
-    font-size: 0.7em;
-  }
-</style>
-
 **with [Ferry, M.](https://marin-ferry.weebly.com/)**
 
 Can adaptation strategies mitigate the impact of drought episodes on household food insecurity? Using longitudinal data on Malagasy rural households from 2011 to 2014 and a two-way fixed-effects model with an instrumental variable method to address endogeneity issues, this study demonstrates that crop diversification significantly reduces household food insecurity and provides mitigating benefits. Specifically, adding one additional crop reduces perceived food insecurity by 6–8% and shortens the lean season by 20–22% on average. Moreover, diversification helps alleviate the adverse effects of drought episodes, with cultivating 6 to 9 crops—particularly fruits and cereals—proving most effective. However, the effectiveness of diversification diminishes under severe drought conditions and varies across crop types.
