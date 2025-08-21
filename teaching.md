@@ -17,7 +17,7 @@ permalink: /teaching/
 
 Introduction to Development Economics  
 3rd year of BSc Economics  
-<span class="small-text">2021-present</span>
+<span class="small-text">2021-2025</span>
 
 
 <br>
