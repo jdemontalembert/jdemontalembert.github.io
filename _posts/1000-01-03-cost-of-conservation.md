@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The health cost of conservation: impact of protected areas on child health"
+title:  "Health cost of conservation: impact of protected areas on child health"
 date:   1000-01-03 21:21:21 +0530
 description: Job Market Paper
 status: ""
