@@ -4,12 +4,9 @@ title: home
 ---
 
 
-### **PhD Candidate** at **[Université Paris Dauphine-PSL](https://leda.dauphine.fr/)**
-#### **>> on the job market 2024-25 <<**
+### **Postdoctoral fellow** at **[Aix-Marseille School of Economics](https://www.amse-aixmarseille.fr/fr)**
 
-Department of Economics (LEDa)  
-UMR CNRS 8007, UMR IRD 260  
-Equipe DIAL
+PhD in Economics from [Université Paris Dauphine](https://leda.dauphine.fr/)  
 
 <br>
 
@@ -22,7 +19,7 @@ Second: Health Economics, Agricultural Economics, Applied Economics
 
 #### **Contact**
 
-jeanne.de-montalembert[at]dauphine.psl.eu
+jeanne.de-montalembert[at]univ-amu.fr
  
 
 
