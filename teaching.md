@@ -12,6 +12,15 @@ permalink: /teaching/
 </style>
 
 
+### **Aix-Marseille School of Economics** 
+
+Development Economics  
+3rd year of BSc Economics and Finance
+<span class="small-text">2026</span>
+
+
+<br>
+
 
 ### **Université Paris Dauphine** 
 
